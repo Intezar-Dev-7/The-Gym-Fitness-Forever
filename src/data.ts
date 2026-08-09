@@ -1,4 +1,8 @@
 import { Service, Program, Review, GalleryItem } from "./types";
+import galleryStrength from "./assets/images/gallery_strength_1786252049468.jpg";
+import cardioEndurance from "./assets/images/cardio_endurance_1786252064047.jpg";
+import groupFitnessClass from "./assets/images/group_fitness_class_1786252079088.jpg";
+import aboutGymCommunity from "./assets/images/about_gym_community_1786252033276.jpg";
 
 export const SERVICES: Service[] = [
   {
@@ -86,25 +90,25 @@ export const PROGRAMS: Program[] = [
     id: "strength",
     title: "STRENGTH",
     description: "Build power, muscle and functional strength.",
-    image: "/src/assets/images/gallery_strength_1786252049468.jpg"
+    image: galleryStrength
   },
   {
     id: "cardio",
     title: "CARDIO",
     description: "Improve endurance, stamina and overall fitness.",
-    image: "/src/assets/images/cardio_endurance_1786252064047.jpg"
+    image: cardioEndurance
   },
   {
     id: "group-fitness",
     title: "GROUP FITNESS",
     description: "Stay motivated with energetic group workouts.",
-    image: "/src/assets/images/group_fitness_class_1786252079088.jpg"
+    image: groupFitnessClass
   },
   {
     id: "personal-training",
     title: "PERSONAL TRAINING",
     description: "Get focused guidance and individualized training.",
-    image: "/src/assets/images/about_gym_community_1786252033276.jpg"
+    image: aboutGymCommunity
   }
 ];
 
@@ -150,25 +154,25 @@ export const REVIEWS: Review[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "gal-1",
-    src: "/src/assets/images/gallery_strength_1786252049468.jpg",
+    src: galleryStrength,
     alt: "Premium dumbbell collection and strength equipment rack",
     category: "Strength"
   },
   {
     id: "gal-2",
-    src: "/src/assets/images/group_fitness_class_1786252079088.jpg",
+    src: groupFitnessClass,
     alt: "Beautiful minimalist group fitness and yoga studio environment",
     category: "Classes"
   },
   {
     id: "gal-3",
-    src: "/src/assets/images/cardio_endurance_1786252064047.jpg",
+    src: cardioEndurance,
     alt: "Modern treadmill setup representing endurance and cardio training",
     category: "Cardio"
   },
   {
     id: "gal-4",
-    src: "/src/assets/images/about_gym_community_1786252033276.jpg",
+    src: aboutGymCommunity,
     alt: "Focused strength athlete completing barbell lift",
     category: "Personal Training"
   },

@@ -1,6 +1,7 @@
 import AnimatedSection from "./AnimatedSection";
 import GlassCard from "./GlassCard";
 import { CheckCircle2, Award, Shield, Users } from "lucide-react";
+import aboutImage from "../assets/images/about_gym_community_1786252033276.jpg";
 
 export default function About() {
   const stats = [
@@ -27,22 +28,22 @@ export default function About() {
 
       <div className="max-w-7xl mx-auto">
         <AnimatedSection className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column: Premium Gym Image Container */}
           <div className="lg:col-span-5 relative group">
             {/* Ambient gold glow card border backup */}
             <div className="absolute -inset-1 bg-gradient-to-r from-amber-500/20 to-amber-600/10 rounded-[32px] blur-xl opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" />
-            
+
             <div className="relative rounded-[28px] overflow-hidden aspect-video md:aspect-[4/5] border border-white/10 shadow-2xl">
               <img
-                src="/src/assets/images/about_gym_community_1786252033276.jpg"
+                src={aboutImage}
                 alt="Strength Athlete Training at The Gym Porvorim"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
               />
               {/* Image Gradient Vignette */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-              
+
               <div className="absolute bottom-6 left-6 right-6">
                 <GlassCard className="p-4 bg-black/40 border-white/10 backdrop-blur-md">
                   <p className="text-amber-500 text-xs font-bold uppercase tracking-widest mb-1">

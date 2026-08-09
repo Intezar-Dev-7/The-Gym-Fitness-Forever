@@ -1,5 +1,6 @@
 import { Phone, MessageSquare, Dumbbell } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
+import heroImage from "../assets/images/hero_gym_dark_1786252017507.jpg";
 
 export default function CTA() {
   const handleScrollTo = (id: string) => {
@@ -14,7 +15,7 @@ export default function CTA() {
       {/* Background Image with strong dark vignette overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_gym_dark_1786252017507.jpg"
+          src={heroImage}
           alt="Gym conditioning floor background"
           className="w-full h-full object-cover scale-105 select-none pointer-events-none"
           referrerPolicy="no-referrer"
@@ -25,7 +26,7 @@ export default function CTA() {
 
       <div className="relative z-10 w-full max-w-4xl mx-auto text-center">
         <AnimatedSection className="flex flex-col items-center">
-          
+
           {/* Centered Icon Accent */}
           <div className="w-14 h-14 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-500 mb-8 shadow-xl">
             <Dumbbell className="w-6 h-6 animate-bounce" />

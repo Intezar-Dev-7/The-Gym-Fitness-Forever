@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Star, Clock, ChevronDown, Dumbbell, ShieldCheck } from "lucide-react";
 import GlassCard from "./GlassCard";
+import heroImage from "../assets/images/hero_gym_dark_1786252017507.jpg";
 
 export default function Hero() {
   const handleScrollTo = (id: string) => {
@@ -18,7 +19,7 @@ export default function Hero() {
       {/* Background Image with Cinematic Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_gym_dark_1786252017507.jpg"
+          src={heroImage}
           alt="Premium Dark Gym Interior"
           className="w-full h-full object-cover scale-105 select-none pointer-events-none"
           referrerPolicy="no-referrer"
