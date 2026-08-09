@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --font-display: "Oswald", sans-serif;
+}
+
+/* Custom premium dark scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+  border: 2px solid #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309;
+}
+
+/* Custom typography settings for headers */
+h1, h2, h3, h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0a0a0a;
+}

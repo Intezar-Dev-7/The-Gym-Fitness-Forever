@@ -1,0 +1,8 @@
+{
+  "name": "The Gym – Fitness Forever",
+  "description": "Premium modern website for The Gym – Fitness Forever in Porvorim, Goa. Explore classes like CrossFit, Zumba, kickboxing, and professional weight training.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
